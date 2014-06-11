@@ -8,7 +8,9 @@ title: Using the FontForge Drawing Tools
 
 Designing a font in FontForge will involve using a number of tools and utilities, starting with a
 set of drawing tools which may feel familiar to users with experience in vector graphics &ndash;
-there are noticeable differences through.
+there are noticeable differences through.  
+We’ll first seek to get an understanding of how B&eacute;zier curves work, before looking at
+FontForge’s drawing tools themselves.
 
 From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
 
@@ -34,10 +36,10 @@ and process the dialog box.</p>
 
 ## A little about paths, splines, points, and handles
 
-FontForge can draw three types of paths: Cubic, Quadratic, and Spiro.  
-In this section, we will only discuss Cubic paths, as this is what’s generally used when drawing
-glyphs. Spiro paths have their own separate section in this book, and Quadratic curves are only found
-in TrueType fonts and are rarely used in drawing (they are rather generated at build time).
+FontForge can draw three types of paths: *Cubic*, *Quadratic*, and *Spiro*.  
+In this section, we will only discuss *Cubic* paths, as this is what’s generally used when drawing
+glyphs. *Spiro* paths have their own separate section in this book, and *Quadratic* curves are only
+found in TrueType fonts and are rarely used in drawing (they are rather generated at build time).
 
 ### Paths
 
